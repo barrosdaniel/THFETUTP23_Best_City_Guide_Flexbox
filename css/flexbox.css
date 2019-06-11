@@ -4,10 +4,43 @@
 
 @media (min-width: 769px) {
 
-	
+  /* Header */
+  .main-header,
+  .main-nav {
+    display: flex;
+  }
+
+  .main-header {
+    flex-direction: column;
+  }
+
+  .main-nav {
+    justify-content: center;
+  }
+
+
+
+  /* Main */
+  .row {
+    display: flex;
+  }
+
+  .col {
+    flex: 1;
+  }
+
 
 }
 
 @media (min-width: 1025px) {
+
+  .main-header {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .primary {
+    flex: 2;
+  }
 
 }
